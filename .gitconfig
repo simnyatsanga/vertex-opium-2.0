@@ -1,0 +1,14 @@
+[user]
+	name = simnyatsanga
+	email = simnyatsanga@gmail.com
+[color]
+	ui = true
+[alias]
+	st = status
+	co = checkout
+[push]
+  default = simple
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
